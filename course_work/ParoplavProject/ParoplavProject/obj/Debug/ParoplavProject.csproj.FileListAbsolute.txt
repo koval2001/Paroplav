@@ -1,0 +1,12 @@
+C:\Users\Denis\Desktop\ИПСА\Коваль ООП\ParoplavProject\ParoplavProject\obj\Debug\ParoplavProject.csprojAssemblyReference.cache
+C:\Users\Denis\Desktop\ИПСА\Коваль ООП\ParoplavProject\ParoplavProject\obj\Debug\ParoplavProject.Form1.resources
+C:\Users\Denis\Desktop\ИПСА\Коваль ООП\ParoplavProject\ParoplavProject\obj\Debug\ParoplavProject.Properties.Resources.resources
+C:\Users\Denis\Desktop\ИПСА\Коваль ООП\ParoplavProject\ParoplavProject\obj\Debug\ParoplavProject.csproj.GenerateResource.cache
+C:\Users\Denis\Desktop\ИПСА\Коваль ООП\ParoplavProject\ParoplavProject\obj\Debug\ParoplavProject.csproj.CoreCompileInputs.cache
+C:\Users\Denis\Desktop\ИПСА\Коваль ООП\ParoplavProject\ParoplavProject\bin\Debug\ParoplavProject.exe.config
+C:\Users\Denis\Desktop\ИПСА\Коваль ООП\ParoplavProject\ParoplavProject\bin\Debug\ParoplavProject.exe
+C:\Users\Denis\Desktop\ИПСА\Коваль ООП\ParoplavProject\ParoplavProject\bin\Debug\ParoplavProject.pdb
+C:\Users\Denis\Desktop\ИПСА\Коваль ООП\ParoplavProject\ParoplavProject\obj\Debug\ParoplavProject.exe
+C:\Users\Denis\Desktop\ИПСА\Коваль ООП\ParoplavProject\ParoplavProject\obj\Debug\ParoplavProject.pdb
+C:\Users\Denis\Desktop\ИПСА\Коваль ООП\ParoplavProject\ParoplavProject\obj\Debug\ParoplavProject.Main.resources
+C:\Users\Denis\Desktop\ИПСА\Коваль ООП\ParoplavProject\ParoplavProject\obj\Debug\ParoplavProject.Database.resources
