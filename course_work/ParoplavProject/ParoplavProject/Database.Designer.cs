@@ -41,12 +41,6 @@
             this.radioButton5 = new System.Windows.Forms.RadioButton();
             this.radioButton6 = new System.Windows.Forms.RadioButton();
             this.comboBox3 = new System.Windows.Forms.ComboBox();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.radioButton3 = new System.Windows.Forms.RadioButton();
-            this.radioButton4 = new System.Windows.Forms.RadioButton();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.pict = new System.Windows.Forms.PictureBox();
-            this.dataGridView3 = new System.Windows.Forms.DataGridView();
             this.gbFilter = new System.Windows.Forms.GroupBox();
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
@@ -62,6 +56,12 @@
             this.checkBox2 = new System.Windows.Forms.CheckBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.radioButton3 = new System.Windows.Forms.RadioButton();
+            this.radioButton4 = new System.Windows.Forms.RadioButton();
+            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.pict = new System.Windows.Forms.PictureBox();
+            this.dataGridView3 = new System.Windows.Forms.DataGridView();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.firstUrokToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.открытьToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -86,10 +86,10 @@
             this.groupBox1.SuspendLayout();
             this.gbSort.SuspendLayout();
             this.groupBox3.SuspendLayout();
+            this.gbFilter.SuspendLayout();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pict)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).BeginInit();
-            this.gbFilter.SuspendLayout();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -255,82 +255,6 @@
             this.comboBox3.Size = new System.Drawing.Size(177, 39);
             this.comboBox3.TabIndex = 0;
             // 
-            // groupBox2
-            // 
-            this.groupBox2.Controls.Add(this.radioButton3);
-            this.groupBox2.Controls.Add(this.radioButton4);
-            this.groupBox2.Controls.Add(this.comboBox2);
-            this.groupBox2.Enabled = false;
-            this.groupBox2.Location = new System.Drawing.Point(14, 183);
-            this.groupBox2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.groupBox2.Size = new System.Drawing.Size(203, 149);
-            this.groupBox2.TabIndex = 3;
-            this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Затем";
-            // 
-            // radioButton3
-            // 
-            this.radioButton3.AutoSize = true;
-            this.radioButton3.Location = new System.Drawing.Point(32, 116);
-            this.radioButton3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.radioButton3.Name = "radioButton3";
-            this.radioButton3.Size = new System.Drawing.Size(190, 35);
-            this.radioButton3.TabIndex = 2;
-            this.radioButton3.TabStop = true;
-            this.radioButton3.Text = "по убыванию";
-            this.radioButton3.UseVisualStyleBackColor = true;
-            // 
-            // radioButton4
-            // 
-            this.radioButton4.AutoSize = true;
-            this.radioButton4.Location = new System.Drawing.Point(32, 82);
-            this.radioButton4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.radioButton4.Name = "radioButton4";
-            this.radioButton4.Size = new System.Drawing.Size(219, 35);
-            this.radioButton4.TabIndex = 1;
-            this.radioButton4.TabStop = true;
-            this.radioButton4.Text = "по возрастанию";
-            this.radioButton4.UseVisualStyleBackColor = true;
-            // 
-            // comboBox2
-            // 
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Items.AddRange(new object[] {
-            "",
-            "Код_клиента",
-            "Фамилия",
-            "Имя",
-            "Код_тренера"});
-            this.comboBox2.Location = new System.Drawing.Point(18, 31);
-            this.comboBox2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(177, 39);
-            this.comboBox2.TabIndex = 0;
-            // 
-            // pict
-            // 
-            this.pict.BackColor = System.Drawing.Color.White;
-            this.pict.Location = new System.Drawing.Point(1046, 768);
-            this.pict.Margin = new System.Windows.Forms.Padding(6);
-            this.pict.Name = "pict";
-            this.pict.Size = new System.Drawing.Size(290, 212);
-            this.pict.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pict.TabIndex = 15;
-            this.pict.TabStop = false;
-            // 
-            // dataGridView3
-            // 
-            this.dataGridView3.AllowUserToAddRows = false;
-            this.dataGridView3.BackgroundColor = System.Drawing.Color.White;
-            this.dataGridView3.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView3.Location = new System.Drawing.Point(19, 306);
-            this.dataGridView3.Margin = new System.Windows.Forms.Padding(4);
-            this.dataGridView3.Name = "dataGridView3";
-            this.dataGridView3.Size = new System.Drawing.Size(578, 229);
-            this.dataGridView3.TabIndex = 16;
-            // 
             // gbFilter
             // 
             this.gbFilter.Controls.Add(this.button2);
@@ -348,7 +272,7 @@
             this.gbFilter.Controls.Add(this.textBox1);
             this.gbFilter.Controls.Add(this.checkBox1);
             this.gbFilter.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.gbFilter.Location = new System.Drawing.Point(620, 49);
+            this.gbFilter.Location = new System.Drawing.Point(613, 58);
             this.gbFilter.Name = "gbFilter";
             this.gbFilter.Size = new System.Drawing.Size(244, 409);
             this.gbFilter.TabIndex = 17;
@@ -424,9 +348,9 @@
             this.checkBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.checkBox3.Location = new System.Drawing.Point(14, 216);
             this.checkBox3.Name = "checkBox3";
-            this.checkBox3.Size = new System.Drawing.Size(185, 33);
+            this.checkBox3.Size = new System.Drawing.Size(135, 33);
             this.checkBox3.TabIndex = 7;
-            this.checkBox3.Text = "Код тренера";
+            this.checkBox3.Text = "Кол рыб";
             this.checkBox3.UseVisualStyleBackColor = true;
             this.checkBox3.CheckedChanged += new System.EventHandler(this.checkBox3_CheckedChanged);
             // 
@@ -474,9 +398,9 @@
             this.checkBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.checkBox2.Location = new System.Drawing.Point(14, 111);
             this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(185, 33);
+            this.checkBox2.Size = new System.Drawing.Size(113, 33);
             this.checkBox2.TabIndex = 2;
-            this.checkBox2.Text = "Код клиента";
+            this.checkBox2.Text = "Длина";
             this.checkBox2.UseVisualStyleBackColor = true;
             this.checkBox2.CheckedChanged += new System.EventHandler(this.checkBox2_CheckedChanged);
             // 
@@ -496,11 +420,87 @@
             this.checkBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.checkBox1.Location = new System.Drawing.Point(15, 37);
             this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(149, 33);
+            this.checkBox1.Size = new System.Drawing.Size(152, 33);
             this.checkBox1.TabIndex = 0;
-            this.checkBox1.Text = "Фамилия";
+            this.checkBox1.Text = "Название";
             this.checkBox1.UseVisualStyleBackColor = true;
             this.checkBox1.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
+            // 
+            // groupBox2
+            // 
+            this.groupBox2.Controls.Add(this.radioButton3);
+            this.groupBox2.Controls.Add(this.radioButton4);
+            this.groupBox2.Controls.Add(this.comboBox2);
+            this.groupBox2.Enabled = false;
+            this.groupBox2.Location = new System.Drawing.Point(14, 183);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.groupBox2.Size = new System.Drawing.Size(203, 149);
+            this.groupBox2.TabIndex = 3;
+            this.groupBox2.TabStop = false;
+            this.groupBox2.Text = "Затем";
+            // 
+            // radioButton3
+            // 
+            this.radioButton3.AutoSize = true;
+            this.radioButton3.Location = new System.Drawing.Point(32, 116);
+            this.radioButton3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.radioButton3.Name = "radioButton3";
+            this.radioButton3.Size = new System.Drawing.Size(190, 35);
+            this.radioButton3.TabIndex = 2;
+            this.radioButton3.TabStop = true;
+            this.radioButton3.Text = "по убыванию";
+            this.radioButton3.UseVisualStyleBackColor = true;
+            // 
+            // radioButton4
+            // 
+            this.radioButton4.AutoSize = true;
+            this.radioButton4.Location = new System.Drawing.Point(32, 82);
+            this.radioButton4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.radioButton4.Name = "radioButton4";
+            this.radioButton4.Size = new System.Drawing.Size(219, 35);
+            this.radioButton4.TabIndex = 1;
+            this.radioButton4.TabStop = true;
+            this.radioButton4.Text = "по возрастанию";
+            this.radioButton4.UseVisualStyleBackColor = true;
+            // 
+            // comboBox2
+            // 
+            this.comboBox2.FormattingEnabled = true;
+            this.comboBox2.Items.AddRange(new object[] {
+            "",
+            "Код_клиента",
+            "Фамилия",
+            "Имя",
+            "Код_тренера"});
+            this.comboBox2.Location = new System.Drawing.Point(18, 31);
+            this.comboBox2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.comboBox2.Name = "comboBox2";
+            this.comboBox2.Size = new System.Drawing.Size(177, 39);
+            this.comboBox2.TabIndex = 0;
+            // 
+            // pict
+            // 
+            this.pict.BackColor = System.Drawing.Color.White;
+            this.pict.Location = new System.Drawing.Point(1046, 768);
+            this.pict.Margin = new System.Windows.Forms.Padding(6);
+            this.pict.Name = "pict";
+            this.pict.Size = new System.Drawing.Size(290, 212);
+            this.pict.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pict.TabIndex = 15;
+            this.pict.TabStop = false;
+            // 
+            // dataGridView3
+            // 
+            this.dataGridView3.AllowUserToAddRows = false;
+            this.dataGridView3.BackgroundColor = System.Drawing.Color.White;
+            this.dataGridView3.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView3.Location = new System.Drawing.Point(19, 306);
+            this.dataGridView3.Margin = new System.Windows.Forms.Padding(4);
+            this.dataGridView3.Name = "dataGridView3";
+            this.dataGridView3.Size = new System.Drawing.Size(578, 229);
+            this.dataGridView3.TabIndex = 16;
             // 
             // menuStrip1
             // 
@@ -616,11 +616,12 @@
             this.cортировкаToolStripMenuItem.Name = "cортировкаToolStripMenuItem";
             this.cортировкаToolStripMenuItem.Size = new System.Drawing.Size(252, 30);
             this.cортировкаToolStripMenuItem.Text = "Cортировка";
+            this.cортировкаToolStripMenuItem.Click += new System.EventHandler(this.cортировкаToolStripMenuItem_Click_1);
             // 
             // фильтрацияToolStripMenuItem
             // 
             this.фильтрацияToolStripMenuItem.Name = "фильтрацияToolStripMenuItem";
-            this.фильтрацияToolStripMenuItem.Size = new System.Drawing.Size(252, 30);
+            this.фильтрацияToolStripMenuItem.Size = new System.Drawing.Size(196, 30);
             this.фильтрацияToolStripMenuItem.Text = "Фильтрация";
             this.фильтрацияToolStripMenuItem.Click += new System.EventHandler(this.фильтрацияToolStripMenuItem_Click_1);
             // 
@@ -631,7 +632,7 @@
             this.поНомеруToolStripMenuItem,
             this.поКодуТренераToolStripMenuItem});
             this.поискToolStripMenuItem.Name = "поискToolStripMenuItem";
-            this.поискToolStripMenuItem.Size = new System.Drawing.Size(252, 30);
+            this.поискToolStripMenuItem.Size = new System.Drawing.Size(196, 30);
             this.поискToolStripMenuItem.Text = "Поиск";
             // 
             // поНазвіToolStripMenuItem
@@ -681,12 +682,12 @@
             this.gbSort.ResumeLayout(false);
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
+            this.gbFilter.ResumeLayout(false);
+            this.gbFilter.PerformLayout();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pict)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).EndInit();
-            this.gbFilter.ResumeLayout(false);
-            this.gbFilter.PerformLayout();
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);

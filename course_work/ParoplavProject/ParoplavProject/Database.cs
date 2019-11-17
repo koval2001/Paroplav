@@ -284,17 +284,17 @@ namespace ParoplavProject
         {
             dv1.RowFilter = "";
             string sFilter0 = Filter;
-            if (textBox1.Text != "") sFilter0 += " And Фамилия Like '%" + textBox1.Text + "%'";
-            if (textBox2.Text != "") sFilter0 += " And Код_клиента >= " + textBox2.Text;
-            if (textBox3.Text != "") sFilter0 += " And Код_клиента <= " + textBox3.Text;
+            if (textBox1.Text != "") sFilter0 += " And Название Like '%" + textBox1.Text + "%'";
+            if (textBox2.Text != "") sFilter0 += " And Длина >= " + textBox2.Text;
+            if (textBox3.Text != "") sFilter0 += " And Длина <= " + textBox3.Text;
             sFilter0.Trim();
             if (sFilter0.StartsWith(" And"))
                 sFilter0 = sFilter0.Remove(0, 4);
             dv1.RowFilter = sFilter0;
             if (checkBox3.Checked)
             {
-                if (textBox4.Text != "") sFilter0 += " And Код_тренера >= " + textBox4.Text;
-                if (textBox5.Text != "") sFilter0 += " And Код_тренера <= " + textBox5.Text;
+                if (textBox4.Text != "") sFilter0 += " And КоличествоВидовРыб >= " + textBox4.Text;
+                if (textBox5.Text != "") sFilter0 += " And КоличествоВидовРыб<= " + textBox5.Text;
                 dv1.RowFilter = sFilter0;
                 sFilter0 = "";
             }
@@ -310,17 +310,22 @@ namespace ParoplavProject
         {
             if (checkBox1.Checked)
             {
-                dv1.RowFilter = "Фамилия Like '%" + textBox1.Text + "%'";
+                dv1.RowFilter = "Название Like '%" + textBox1.Text + "%'";
                 if (checkBox2.Checked)
                 {
-                    if (textBox2.Text != "") dv1.RowFilter += " And Код_клиента >= " + textBox2.Text;
-                    if (textBox3.Text != "") dv1.RowFilter += " And Код_клиента <= " + textBox3.Text;
+                    if (textBox2.Text != "") dv1.RowFilter += " And Длина >= " + textBox2.Text;
+                    if (textBox3.Text != "") dv1.RowFilter += " And Длина <= " + textBox3.Text;
                 }
                 if (checkBox3.Checked)
-                    if (textBox4.Text != "") dv1.RowFilter += " And Код_тренера >= " + textBox4.Text;
-                if (textBox5.Text != "") dv1.RowFilter += " And Код_тренера <= " + textBox5.Text;
+                    if (textBox4.Text != "") dv1.RowFilter += " And КоличествоВидовРыб >= " + textBox4.Text;
+                if (textBox5.Text != "") dv1.RowFilter += " And КоличествоВидовРыб <= " + textBox5.Text;
                 Filter = dv1.RowFilter;
             }
+        }
+
+        private void cортировкаToolStripMenuItem_Click_1(object sender, EventArgs e)
+        {
+
         }
 
         private void Database_Load(object sender, EventArgs e)
