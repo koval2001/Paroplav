@@ -1,0 +1,5 @@
+/Users/dianakoval/RiderProjects/Water/Water/bin/Release/Water.exe
+/Users/dianakoval/RiderProjects/Water/Water/bin/Release/Water.pdb
+/Users/dianakoval/RiderProjects/Water/Water/obj/Release/Water.csprojAssemblyReference.cache
+/Users/dianakoval/RiderProjects/Water/Water/obj/Release/Water.exe
+/Users/dianakoval/RiderProjects/Water/Water/obj/Release/Water.pdb
