@@ -19,7 +19,7 @@ namespace ParoplavProject
 
         private void label1_Click(object sender, EventArgs e)
         {
-            Main f = new Main();
+            MenuForm f = new MenuForm();
             this.Hide();
             f.Show();
         }

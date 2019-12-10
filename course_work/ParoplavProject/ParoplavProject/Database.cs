@@ -143,7 +143,9 @@ namespace ParoplavProject
 
         private void Database_FormClosed(object sender, FormClosedEventArgs e)
         {
-            Application.Exit();
+            MenuForm f = new MenuForm();
+            this.Hide();
+            f.Show();
         }
 
         private void открытьToolStripMenuItem_Click_1(object sender, EventArgs e)

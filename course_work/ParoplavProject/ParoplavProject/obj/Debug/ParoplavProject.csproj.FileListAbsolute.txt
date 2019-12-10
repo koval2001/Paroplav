@@ -10,3 +10,4 @@ C:\Users\Denis\Desktop\ИПСА\Коваль ООП\ParoplavProject\ParoplavProj
 C:\Users\Denis\Desktop\ИПСА\Коваль ООП\ParoplavProject\ParoplavProject\obj\Debug\ParoplavProject.pdb
 C:\Users\Denis\Desktop\ИПСА\Коваль ООП\ParoplavProject\ParoplavProject\obj\Debug\ParoplavProject.Main.resources
 C:\Users\Denis\Desktop\ИПСА\Коваль ООП\ParoplavProject\ParoplavProject\obj\Debug\ParoplavProject.Database.resources
+C:\Users\Denis\Desktop\ИПСА\Коваль ООП\ParoplavProject\ParoplavProject\obj\Debug\ParoplavProject.MenuForm.resources

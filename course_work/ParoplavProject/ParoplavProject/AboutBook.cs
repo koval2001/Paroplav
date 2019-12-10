@@ -1,21 +1,17 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System;
 
-namespace ParoplavProject
+namespace Water
 {
     public abstract class AboutBook
     {
-        public string Name;
+        //public string Name;
         public TimeSpan IceingTime;
         public bool IsRiverOutput;
 
-        public string OutputRiverName()
-        {
-            return IsRiverOutput ? Name : null;
-        }
+        //public string OutputRiverName()
+        //{
+        //    return IsRiverOutput ? Name : null;
+        //}
 
         public abstract float PartOfTheyearWhenThereIsNoIce();
     }

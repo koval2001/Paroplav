@@ -1,13 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System;
 
-namespace ParoplavProject
+namespace Water
 {
-    public class Reservoir : AboutBook
+    public class Reservoir:AboutBook
     {
+
+        protected string name;
         protected int square;//площадь
         protected int number;//количество
         protected double maxDepth;//найбольшая глубина
@@ -16,6 +14,12 @@ namespace ParoplavProject
 
         public Reservoir()
         { }
+
+        public string Name
+        {
+            get { return name; }
+            set { name = value; }
+        }
 
         //конструктор класса
         public Reservoir(int square, int number, double maxDepth, double weightWater)
@@ -80,6 +84,19 @@ namespace ParoplavProject
         {
             return new TimeSpan(365, 0, 0, 0).Milliseconds / (float)IceingTime.Milliseconds;
         }
+
+        public int compareByRiverNumber(Reservoir l1, Reservoir l2)
+        {
+            return l1.Number.CompareTo(l2.Number);
+        }
+
+        public int compareByName(Reservoir l1, Reservoir l2)
+        {
+            return l1.Name.CompareTo(l2.Name);
+        }
+        public int compareBySquare(Reservoir l1, Reservoir l2)
+        {
+            return l1.Square.CompareTo(l2.Square);
+        }
     }
 }
- 
